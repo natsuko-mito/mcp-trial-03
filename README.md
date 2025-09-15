@@ -34,8 +34,8 @@ https://console.anthropic.com/dashboard
 
 ## 使用方法
 
-```bash
-# 実装後のコマンドをここに記載
+```zsh
+python src/langgraph_mcp.py
 ```
 
 ## プロジェクト構成
@@ -43,5 +43,7 @@ https://console.anthropic.com/dashboard
 ```
 mcp-trial-03/
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── src/
+    └── langgraph_mcp.py
 ```
